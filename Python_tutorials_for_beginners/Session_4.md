@@ -11,7 +11,7 @@
 
 ## Loops
 
-When an operation needs to be repeated multiple times, for example on all of the items in a list, we 
+When an operation needs to be repeated multiple times, for example on all of the items in a list, we
 avoid having to type (or copy and paste) repetitive code by creating a loop. There are two ways of creating loops in Python, the <tt>for</tt> loop and the <tt>while</tt> loop.
 
 ## The <tt>for</tt> loop
@@ -53,7 +53,7 @@ for character in name:
     c
     h
     i
-     
+
     P
     y
     t
@@ -62,7 +62,7 @@ for character in name:
     n
 
 
-And also over the keys of a dictionary: 
+And also over the keys of a dictionary:
 
 
 ```python
@@ -99,19 +99,19 @@ Naturally we can combine a <tt>for</tt> loop with an <tt>if</tt> statement, noti
 
 ```python
 markList = {
-    'Tintumon': 22, 
-    'Dundumol': 86, 
-    'Dingan': 69, 
+    'Tintumon': 22,
+    'Dundumol': 86,
+    'Dingan': 69,
     'Luttapi': 45
 }
 
 for person in markList:
     if markList.get(person) < 45:
         print(person, " : Failed")
-        
+
     elif markList.get(person) > 45:
         print(person, " : Passed")
-        
+
     else:
         print(person, ' : Just Pass' )
 ```
@@ -126,7 +126,7 @@ for person in markList:
 
 In addition to the <tt>for</tt> loop that operates on a collection of items, there is a <tt>while</tt> loop that simply repeats while some statement evaluates to True and stops when it is False. Note that if the tested expression never evaluates to False then you have an “infinite loop”, which is not good.
 
-In this example we generate a series of numbers by doubling a value after each iteration, until a limit is reached: 
+In this example we generate a series of numbers by doubling a value after each iteration, until a limit is reached:
 
 
 ```python
@@ -221,7 +221,7 @@ print(list(range(7, 2, -1)))
     [7, 6, 5, 4, 3]
 
 
-### Looping through ranges 
+### Looping through ranges
 
 
 ```python
@@ -245,7 +245,7 @@ squares = []
 for x in range(8):
     s = x*x
     squares.append(s)
-    
+
 print(squares)
 ```
 
@@ -357,4 +357,4 @@ print("total population:", sum(pops))
 
 ## Next session
 
-- Go to next session: [Session 5](Session_5.ipynb)
+- Go to next session: [Session 5](Session_5.md)

@@ -21,13 +21,13 @@ Now enter the Python interpreter from the directory you've created `my_first_mod
 
 ```bash
 python3
-Python 3.5.2 (default, Jun 30 2016, 18:10:25) 
+Python 3.5.2 (default, Jun 30 2016, 18:10:25)
 [GCC 4.2.1 Compatible Apple LLVM 7.0.2 (clang-700.1.81)] on darwin
 Type "help", "copyright", "credits" or "license" for more information.
 >>> from my_first_module import say_hello
 >>> say_hello('Anne')
 hello Anne !
->>> 
+>>>
 ```
 
 There is one module already stored in the course directory called `my_first_module.py`, if you wish to import it into this notebook, below is what you need to do. If you wish to edit this file and change the code or add another function, you will have to restart the notebook to have these changes taken into account using the restart the kernel button in the menu bar.
@@ -38,14 +38,14 @@ from my_first_module import say_hello
 say_hello('Anne')
 ```
 
-A module can contain executable statements as well as function definitions. These statements are intended to initialize the module. They are executed only the first time the module name is encountered in an import statement. 
+A module can contain executable statements as well as function definitions. These statements are intended to initialize the module. They are executed only the first time the module name is encountered in an import statement.
 They are also run if the file is executed as a script.
 
 Do comment out these executable statements if you do not wish to have them executed when importing your module.
 
 For more information about modules, https://docs.python.org/3/tutorial/modules.html.
 
-## Create 
+## Create
 
 Now that you know functions, lists, dictionaries, loops and a lot more why don't you try to build something on your own.
 
@@ -57,4 +57,4 @@ Good luck!
 
 ## Next session
 
-- Go to next session: [Session 8](Session_8.ipynb)
+- Go to next session: [Session 8](Session_8.md)

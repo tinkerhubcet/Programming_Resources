@@ -1,7 +1,7 @@
 
 # An introduction to Python
 
-- Python website: https://www.python.org/ 
+- Python website: https://www.python.org/
 - [Python 3 Standard Library](https://docs.python.org/3/library/index.html])
 
 ## Learning objectives
@@ -9,7 +9,7 @@
 - **Basics** how to print, create variables and save Python code in files
 - **List** the most common data types in Python
 - **Explain** how to write conditions and loops in Python
-- **Use and compare** these concepts in different code examples 
+- **Use and compare** these concepts in different code examples
 - **Propose and create** solutions using these concepts in different exercises
 
 - **Session 2.1** - Functions
@@ -82,9 +82,9 @@ print('A set:', example_set)
 
 ```python
 ## Dictionary
-example_dictionary = {"A": "APPLE", 
-                      "B": "BALL", 
-                      "C": "CAT", 
+example_dictionary = {"A": "APPLE",
+                      "B": "BALL",
+                      "C": "CAT",
                       "D": "DOLL"}
 print('A dictionary:', example_dictionary)
 print('Value associated to key C:', example_dictionary['C'])
@@ -181,4 +181,4 @@ And the world will live as one
 
 ## Next session
 
-- Go to next session: [Session 6](Session_6.ipynb)
+- Go to next session: [Session 6](Session_6.md)
