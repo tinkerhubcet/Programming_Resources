@@ -1,15 +1,9 @@
-<h1 align="center">Tinkerhub</h1>
+<h1 align="center">Programming Resources</h1>
 
 
-Learn more about the CET chapter of Tinkerhub ->[Tinkerhub CET](tinkerhubcet.github.io) 
+Everyone is encouraged to share your resources which include workshops, seminars, and other content that they wish to add.
 
+Simply add to the existing topics or create a new foldes forthe topics that you wish to add.
 
-
-|Learn python |
-|---          |
-|[Python tutorials for beginners](Python_tutorials_for_beginners)|
-
-
-Everyone is encouraged to sharre your resources which include workshops, seminars, and other
 
 
